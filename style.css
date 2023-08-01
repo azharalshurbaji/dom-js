@@ -6,6 +6,25 @@ body {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.btn {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    background-color: #f00;
+    color: #fff;
+    border: 2px solid #f00;
+    font-size: 18px;
+}
+.btn:hover {
+    border: 2px solid #f00;
+    background-color: transparent;
+    color: #f00;
+}
+
+.title {
+    text-align: center;
+}
 .messageError {
     text-align: center;
     padding: 20px;

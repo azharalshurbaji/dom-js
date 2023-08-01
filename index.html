@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>DOM JS</title>
-
+    
 </head>
 <body id="body">
-
+    
+    <button class="btn" onclick="myFunction()">Click Here</button>
     <p>◉ On pressing the button <u>the Text color and BackgroundColor will change:</u> </p>
     <h1 id="myDemo">
         The Element Object
@@ -38,6 +39,7 @@
     </ul>
     <hr>
     
+    
     <p>◉ When you click on the button, <u>Remove an HTML element:</u> </p>
     <ul id="listItemsRemove">
         <li>Coffee</li>
@@ -45,11 +47,12 @@
         <li>Water</li>
     </ul>
     <button onclick="myFunctionRemove()" id="hideButton">Remove Element</button>
+    
+    
+    
+    
     <hr>
-
-    <button onclick="myFunction()">Click Here</button>
-
-
+    <h1 class="title">Validate Form</h1>
     <div class="form-wrapper">
         <div class="messageError" id="messageError"></div>
     <form name="myForm" method="post" onsubmit="return validateForm()">
