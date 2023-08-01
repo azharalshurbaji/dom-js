@@ -1,4 +1,7 @@
 
+//The sentence in <h1> will be printed in <p>
+document.getElementById("id02").innerHTML = document.getElementById("id01").innerHTML
+
 function myFunction() {
     
     // the Text color and BackgroundColor will change
