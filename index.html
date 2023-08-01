@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM JS</title>
+
+</head>
+<body id="body">
+
+    <p>◉ On pressing the button <u>the Text color and BackgroundColor will change:</u> </p>
+    <h1 id="myDemo">
+        The Element Object
+    </h1>
+    <hr>
+
+    <p>◉ When the button <u>is pressed a new text will appear:</u></p>
+    <p id="addNewItem"></p>
+    <hr>
+
+    <p>◉ When you click on the button, <u>the link will be activated:</u> </p>
+    <a id="myAnchor">Go to FaceBook</a>
+    <br>
+    <hr>
+
+    <p>◉ When you click on the button, <u>a new item will be added:</u> </p>
+    <ul id="listItems">
+        <li>Coffee</li>
+    </ul>
+    <hr>
+
+    <p>◉ When you click on the button, <u>Replace and Change Color an HTML element:</u> </p>
+    <ul id="listItemsReplace">
+        <li class="changeColor">Coffee</li>
+        <li>Coffee</li>
+        <li>Coffee</li>
+    </ul>
+    <hr>
+    
+    <p>◉ When you click on the button, <u>Remove an HTML element:</u> </p>
+    <ul id="listItemsRemove">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Water</li>
+    </ul>
+    <button onclick="myFunctionRemove()" id="hideButton">Remove Element</button>
+    <hr>
+
+    <button onclick="myFunction()">Click Here</button>
+
+
+    <div class="form-wrapper">
+        <div class="messageError" id="messageError"></div>
+    <form name="myForm" method="post" onsubmit="return validateForm()">
+        <input type="text" placeholder="Full Name" name="fullName">
+        <input type="email" placeholder="Email" name="email">
+        <input type="password" placeholder="Password" name="password">
+        <input type="submit" value="Submit" class="btn-submit">
+    </form>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+.democlass {
+    color: red;
+}
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.messageError {
+    text-align: center;
+    padding: 20px;
+    /* background-color: #ff9f9f; */
+    color: #f00;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+}
+.form-wrapper {
+    margin: auto;
+    padding: 50px;
+    width: 400px;
+    background-color: #f3cff3;
+}
+
+form *:not(input[type="submit"]) {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    padding: 5px;
+    background-color: #ffeeff;
+    border: 1px solid #f3cff3;
+}
+
+.btn-submit {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ff5eff;
+    color: #f3cff3;
+    border: hidden;
+    /* border-radius: 20px; */
+    transition: .5s;
+    cursor: pointer;
+}
+.btn-submit:hover {
+    border: 2px solid #ff5eff;
+    background-color: transparent;
+    color: #ff5eff;
+}
